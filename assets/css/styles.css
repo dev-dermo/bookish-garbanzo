@@ -7,7 +7,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	/* padding: 50px 0; */
 }
 
 main {
@@ -19,12 +18,17 @@ main {
 	border: solid black 2px;
 }
 
+h1 {
+	line-height: 1.5em	;
+}
+
 form div {
 	margin-top: 20px;
 }
 
 label {
 	margin-top: 10px;
+	line-height: 1.5em;
 }
 
 input, textarea {
