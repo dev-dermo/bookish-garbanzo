@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>My Application</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100" rel="stylesheet">
+
+	<link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+	<main>
+		<h1>
+			My Application
+		</h1>
+
+		<form>
+			<div>
+				<label for="name">
+					Name:
+				</label>
+				<input type="text" id="name" name="name" placeholder="First Last">
+			</div>
+
+			<div>
+				<label for="email">
+					Email:
+				</label>
+				<input type="email" id="email" name="email" placeholder="jane.doe@example.org">
+			</div>
+
+			<div>
+				<label for="phone">
+					Phone:
+				</label>
+				<input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+			</div>
+
+			<div>
+				<label for="github">
+					GitHub Profile <small>(optional)</small>:
+				</label>
+				<input type="url" id="github" name="github" placeholder="https://www.github.com/joe-bloggs">
+			</div>
+
+			<div>
+				<label for="learning">
+					<!-- Elevator Pitch, tell me about what you would like to build: -->
+					<!-- What is your business/app/product idea? -->
+					<!-- What has your journey to learn web development/software engineering been like so far? What tools or resources have you used to date? -->
+
+					<!-- What resources have you used to learn web development/software engineering? -->
+
+					Tell us about your past/current efforts to learn web development/software engineering:
+
+					<!-- Tell us about your journey to learn web development/software engineering: -->
+				</label>
+				<textarea name="learning" id="learning" rows="8" placeholder="Mention tools, resources, books etc."></textarea>
+			</div>
+
+			
+
+			<div>
+				<label>
+					<!-- Elevator Pitch, tell me about what you would like to build: -->
+					<!-- What is your business/app/product idea? -->
+					What is your elevator pitch, tell us about what you would like to build?
+				</label>
+				<textarea name="pitch" id="pitch" rows="8" placeholder="It's like Tinder, but for dogs!"></textarea>
+			</div>
+
+			<button type="submit">Submit Application</button>
+		</form>
+	</main>
+
+	<script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
