@@ -1,12 +1,12 @@
 // GRAB ALL ELEMENTS TO BE USED
 const bodyEl = document.querySelector('body');
+const formEl = document.querySelector('form');
 const nameEl = document.querySelector('#name');
 const emailEl = document.querySelector('#email');
 const phoneEl = document.querySelector('#phone');
 const githubEl = document.querySelector('#github');
 const learningEl = document.querySelector('#learning');
 const pitchEl = document.querySelector('#pitch');
-const formEl = document.querySelector('form');
 const submitEl = document.querySelector('button');
 
 // MAKE CERTAIN FIELDS REQUIRED
